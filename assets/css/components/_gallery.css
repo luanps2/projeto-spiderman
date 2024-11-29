@@ -1,0 +1,26 @@
+.gallery{
+    padding: 20px;
+    padding-left: 0;
+
+    & ul {
+        display: flex;
+        flex-direction: row;
+
+        & li{
+            margin-left: 25px;
+
+            &:first-child{
+                margin-left: 0px;
+            }
+            
+            & a img{
+                border: solid 6px white;
+                border-radius: 15px;
+            }
+
+            
+        }
+    }
+    
+    
+}
